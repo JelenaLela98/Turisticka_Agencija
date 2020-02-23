@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <title>Gallery</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="node_modules/popper.js/dist/popper.js"></script>
+        <script src="jquery.js"></script>
+        <script src="bootstrap/js/bootstrap.bundle.js"></script>
+        <script src="jscript/upload_pic2.js"></script>
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    </head>
+    <body>
+            <header>
+                <nav class="navbar nav-tabs navbar-expand-sm navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                          <a class="navbar-brand" href="">
+                              <img src="logo.jpg" alt="logo" style="width: 100px;">
+                          </a>
+       
+                          
+                          <ul class="navbar-nav justify-content-end navigacija"  >
+                         <li class="nav-item">
+                              <a class="nav-link" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="Aboutus.html">About us</a>
+                          </li>
+                         <li class="nav-item active">
+                              <a class="nav-link" href="destinations.html">Destinations</a>
+                         </li>
+                         <li class="nav-item active">
+                            <a class="nav-link" href="booking.html">Booking</a>
+                       </li>
+                         <li class="nav-item active">
+                            <a class="nav-link" href="galerija.html">Gallery</a>
+                       </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="blog.html">Blog</a>
+                         </li>
+                           <li class="nav-item">
+                                <a class="nav-link" href="kontakt.html">Contact</a>
+                         </li>
+                         
+            </div>
+         </nav>
+        </header>
+          <br>
+            <hr>
+            <div class="container-fluid tekstovi drugipasus">
+                <h2>UPLOAD PHOTO AND<br>WIN A PRIZE</h2>
+                <p class="centar">Upload Your photo from<br>most interesting<br>
+                   destinations and get a<br>chance to win a prize.<br>
+                </p>
+            </div>
+          </div>
+         <!--div class="container">
+                <div class="row divovi">
+                        <div class="col-md-3 slike">
+                                <img src="athen.jpg" alt="Slika Atine" title="Athen,Greece">
+                     </div>
+                     <div class="col-md-3 slike">
+                            <img src="dubrovnik.jpg" alt="Slika Dubrovnika" title="Dubrovnik Croatia">
+                 </div>
+                 <div class="col-md-3 slike">
+                        <img src="greece.jpg" alt="Slika Santorinija" title="Santorini,Greece">
+             </div>
+             <div class="col-md-3 slike">
+                    <img src="havana.jpg" alt="Slika Havane" title="Havana,Cuba">
+         </div>         
+         </div>
+        </div>
+        <div class="container">
+                <div class="row divovi">
+                        <div class="col-md-3 slike">
+                                <img src="london.jpeg" alt="Slika Londona" title="London, UK">
+                     </div>
+                     <div class="col-md-3 slike">
+                            <img src="paris.jpg" alt="Slika Pariza" title="Paris,France">
+                 </div>
+                 <div class="col-md-3 slike">
+                        <img src="quiske.jpg" alt="Bungalov " title="Bora bora">
+             </div>
+             <div class="col-md-3 slike"> 
+                    <img src="rio.jpg" alt="Slika Ria" title="Rio,Brasil">
+         </div>         
+         </div>
+        </div>
+        <div class="container">
+                <div class="row divovi">
+                        <div class="col-md-3 slike">
+                                <img src="rome.jpg" alt="Slika Rima" title="Rome,Italy">
+                     </div>
+                     <div class="col-md-3 slike">
+                            <img src="taj_mahal.jpg" alt="Slika Tadz Mahala" title="Taj Mahal, India">
+                 </div>
+                 <div class="col-md-3 slike">
+                        <img src="thailand.jpg" alt="Slika plaze" title="Beach,Thailand">
+             </div>
+             <div class="col-md-3 slike">
+                    <img src="venice.jpg" alt="Slika Venecije" title="Venice,Italy">
+				</div>  
+			<div class="col-md-3 slike">
+				<img id="output"/>
+			</div>				
+         </div>
+        </div>
+		
+        <div class="ubutt">
+            <label for="File1"> <img src="upload_photo.png"class="custom-upload-button"> </label>
+            <input type="file" id="File1" onchange="openFile(event)" accept="image/*" />
+        </div-->
+<table style="width:50px;" align=center>
+	<tr>
+		<td><img src="athen.jpg" alt="Slika Atine" title="Athen,Greece" style="width:300px"></td>
+		<td><img src="dubrovnik.jpg" alt="Slika Dubrovnika" title="Dubrovnik Croatia" style="width:300px"></td>
+		<td><img src="greece.jpg" alt="Slika Santorinija" title="Santorini,Greece" style="width:300px"></td>
+		<td><img src="havana.jpg" alt="Slika Havane" title="Havana,Cuba" style="width:300px"></td>
+	</tr>
+	<tr>
+		<th><img src="london.jpeg" alt="Slika Londona" title="London, UK" style="width:300px"></th>
+		<th><img src="paris.jpg" alt="Slika Pariza" title="Paris,France" style="width:300px"></th>
+		<th><img src="quiske.jpg" alt="Bungalov " title="Bora bora" style="width:300px"></th>
+		<th><img src="rio.jpg" alt="Slika Ria" title="Rio,Brasil" style="width:300px"></th>
+	</tr>
+	<tr>
+		<td><img src="rome.jpg" alt="Slika Rima" title="Rome,Italy" style="width:300px"></td>
+		<td><img src="taj_mahal.jpg" alt="Slika Tadz Mahala" title="Taj Mahal, India" style="width:300px"></td>
+		<td><img src="thailand.jpg" alt="Slika plaze" title="Beach,Thailand" style="width:300px"></td>
+		<td><img src="venice.jpg" alt="Slika Venecije" title="Venice,Italy" style="width:300px"></td>
+	</tr>
+	<tr>
+	    <td>
+		<div class="ubutt">
+		<label for="File1"> <img src="upload_photo.png"class="custom-upload-button" style="width:70px"> </label>
+        <input type="file" id="File1" onchange="openFile(event)" accept="image/*" /></div></td>
+	</tr>
+</table>
+<footer>
+    &copy; SmartInIt 2019 Home Privacy Policy Contact Support
+</footer>
+
+    </body>
+    </html>
